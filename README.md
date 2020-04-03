@@ -7,6 +7,7 @@ Once Go is installed, you’ll need to install GORM and some of its dependencies
 
 <quote>
 go get github.com/carlmjohnson/feed2json
+go get github.com/apex/gateway
 <quote>
 
-$ curl http://localhost:8080/api/feed
+$ go run main.go -port 8000
